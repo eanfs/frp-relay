@@ -1,0 +1,19 @@
+frp 中转 SSH 快速开始
+====================
+
+1. 解压到 C:\frp-relay
+2. 双击 setup-relay.cmd
+   - 输入 frps auth.token
+   - 输入内网服务器 IP、SSH 端口、SSH 用户
+3. 双击 start-relay.cmd
+   - 窗口会打印本次随机端口，例如：
+     ssh -p 56889 root@frps.example.com
+4. 在环境B执行窗口打印的 ssh 命令
+5. 停止：在中转端窗口按 Ctrl+C
+
+注意：
+- 每次启动端口都会变，以窗口打印为准。
+- status.cmd 可查看当前端口和在线状态。
+- STCP 备用：把 visitor 目录拷到环境B，运行 start-visitor.cmd，
+  然后 ssh -p 60022 用户@127.0.0.1。
+- 详细说明见 MANUAL-zh.md。

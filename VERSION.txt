@@ -1,0 +1,11 @@
+frp 中转 SSH 工具包
+====================
+工具包版本: 1.0.0
+frp 版本: 0.72.0
+构建日期: 2026-11-20
+frps: <你的 frps 地址>:7000（文档中写作 frps.example.com）
+TCP 公网端口: 每次启动随机选择 (50000-59999)
+STCP 本地端口: 60022
+frpc.exe SHA256: b8580b916ecb2e27ecc348bc67bc8b93b0e65266f85fd5d703e2f2f69862b089
+frpc.exe 来源: https://github.com/fatedier/frp/releases/tag/v0.72.0
+许可证: Apache-2.0 (见 LICENSE)

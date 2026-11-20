@@ -1,0 +1,17 @@
+# Generated at runtime; never commit secrets or binaries.
+frpc.exe
+frps
+frps-*
+frpc.toml
+frpc.runtime.toml
+relay-meta.json
+relay-state.json
+visitor/visitor.toml
+visitor/frpc.exe
+visitor/connection-info.txt
+connection-info.txt
+*.log
+*.zip
+*.tar.gz
+backup/
+dist/
